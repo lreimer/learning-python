@@ -20,14 +20,6 @@ pip install click
 ./greeting.py --greeting Hi --name Dude
 ```
 
-## Load tests with Molotov
-
-```bash
-pip install molotov
-molotov -v -r 100 molotov.py
-./molotov.py
-```
-
 ## Microservice with Flask
 
 ```bash
@@ -42,6 +34,14 @@ gcloud run deploy
 
 https get learning-python-1091663571214.europe-north1.run.app
 https get learning-python-1091663571214.europe-north1.run.app name==Leander
+```
+
+## Load tests with Molotov
+
+```bash
+pip install molotov
+molotov -v -r 10 molotov.py
+./molotov.py
 ```
 
 ## Maintainer
