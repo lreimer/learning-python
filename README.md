@@ -2,6 +2,14 @@
 
 Learning Python. Many small Python experiments.
 
+## Prerequisites
+
+```bash
+# make sure you have at least Python 3.12 installed
+python -m venv .venv
+source .venv/bin/activate
+```
+
 ## CLIs with Click
 
 ```bash
