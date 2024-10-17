@@ -10,4 +10,3 @@ Weight is set to 100 for the scenario.
 async def scenario_qaware(session):
     async with session.get("https://www.qaware.de") as resp:
         assert resp.status == 200
-
