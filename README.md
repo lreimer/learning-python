@@ -24,6 +24,8 @@ molotov -v -r 100 molotov.py
 
 ```bash
 pip install Flask gunicorn Werkzeug
+gunicorn -w 1 microservice:app
+http get localhost:8000 name==Leander
 
 gcloud config set project cloud-native-experience-lab
 gcloud run deploy
